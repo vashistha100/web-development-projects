@@ -23,7 +23,7 @@ body{
     z-index: 1;
 }
 .btn::before{
-    content: "";
+     content: "";
      position: absolute;
      background-color: orangered;
      width: 0;
