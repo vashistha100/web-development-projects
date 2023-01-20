@@ -27,10 +27,12 @@ function createPassword(){
         
     }
     inputEl.value = password;
-    alertEl.innerText = password + " copied!";
+    // alertEl.innerText = password + " copied!";
+    return password;
 }
 function copyPassword(){
     inputEl.select();
     inputEl.setSelectionRange(0,9999);
     navigator.clipboard.writeText(inputEl.value)
+    alertEl.innerText = inputEl.value + " copied!";
 }
