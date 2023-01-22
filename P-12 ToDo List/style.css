@@ -2,7 +2,7 @@ body{
     margin: 0;
     display: flex;
     justify-content: center;
-    background-color: greenyellow;
+    background-color: salmon;
     
 }
 
@@ -36,21 +36,25 @@ body{
     list-style-type: none;
     padding: 
     20px;
-    background-color: yellow;
+    background-color: pink;
     font-family: cursive;
     border-top: dotted;
     border-color: gray;
+    position: relative;
     
 }
 .list li .fa-trash{
     position: absolute;
     right: 10px;
+    bottom: 20px;
     color: red;
+
      cursor: pointer;
 }
 .list li .fa-square-check{
     color: green;
     position: absolute;
+    bottom: 20px;
     right: 30px;
 }
 .list li.checked{
